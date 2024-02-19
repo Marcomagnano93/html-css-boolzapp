@@ -61,6 +61,12 @@ img {
 #app {
     height: 100vh;
     background-color: var(--bz_green);
+    display: flex;
+    justify-content: center;
+}
+
+#app .container:first-of-type {
+    margin: 5% 0;
 }
 
 
@@ -98,7 +104,6 @@ img {
 
     .col-9-lg {
         width: calc(9 * 100 / 12);
-        aspect-ratio: 1;
     }
 
     .col-15-md.col-3-lg.block {
