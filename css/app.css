@@ -29,10 +29,92 @@ img {
 
 }
 
+/* LAYOUT */
+.continer {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-100 {
+    width: 100%;
+}
+
+.col-15-md.col-3-lg {
+    display: none;
+    
+}
+
+
+
+
+/* LAYOUT TABLET */
+@media (min-width: 768px) {
+
+    .col-85-md {
+        width: 85%;
+    }
+
+    .col-15-md.col-3-lg.block {
+        width: 15%;
+        display: block;
+    }
+    
+}
+
+
+
+/* LAYOUT DESKTOP */
+@media (min-width: 992px) {
+
+    .col-9-lg {
+        width: calc(9 * 100% / 12);
+    }
+
+    .col-15-md.col-3-lg.block {
+        width: calc(3 * 100% / 12);
+        display: block;
+    }
+    
+}
+
+
+
 /* BACK-GROUND SECTION */
 
+
 /* APP SECTION */
+
+/* APP_BODY SECTION */
 
 /* NAV BAR SECTION */
 
 /* CHAT SECTION */
+
+
+
+
+
+
+
+
+
+/*  DEBUG */
+
+.debug .container {
+    padding: 20px;
+    background-color: green;
+}
+
+.debug .col-15-md.col-3-lg {
+    padding: 20px;
+    background-color: blue;
+}
+
+.debug .col-100.col-85-md.col-9-lg {
+    padding: 20px;
+    background-color: red;
+}
