@@ -1,0 +1,38 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+ul, li, menu {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* ROOT */
+
+:root {
+    --bz_green: #4D9388;
+    --bz_gray: #DBDBD4;
+    --chat_green: #DEF8C0;
+    --chat_azure: #A6D7F9;
+    --chat_lightgray: #EAEAEA;
+
+}
+
+/* BACK-GROUND SECTION */
+
+/* APP SECTION */
+
+/* NAV BAR SECTION */
+
+/* CHAT SECTION */
