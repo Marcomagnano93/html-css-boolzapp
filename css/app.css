@@ -27,6 +27,7 @@ img {
     --chat_azure: #A6D7F9;
     --chat_lightgray: #EAEAEA;
     --text_gray: #B1B1B1;
+    --bg-lightgray: #FAFAFA
 
 }
 
@@ -100,7 +101,9 @@ img {
     align-items: center;
 }
 
-
+.search {
+    display: none;
+}
 
 
 
@@ -141,6 +144,7 @@ img {
         align-items: center;
         padding: 8px;
         max-height: 80px;
+        border-top: 1px solid var(--chat_lightgray);
     }
 
     .card_section {
@@ -196,6 +200,9 @@ img {
     .card {
         justify-content: space-between;
         padding: 12px;
+        
+
+        
     }
 
     .card.bg-gray.mx_h_60 {
@@ -239,6 +246,20 @@ img {
         text-decoration: underline;
     
     }
+
+    .search-bar {
+        padding: 4px;
+        background-color: var(--bg-lightgray);
+    }
+
+    .search {
+        width: 100%;
+        padding: 12px 20px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+
 
 
 }
