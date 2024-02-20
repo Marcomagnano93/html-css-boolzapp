@@ -105,8 +105,29 @@ img {
     display: none;
 }
 
+/* CHAT */
 
+.chat_header {
+    width: 100%;
+    max-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-left: 1px solid var(--text_gray);
 
+}
+
+.icons {
+    display: flex;
+    gap: 16px;
+    color: var(--text_gray);
+}
+
+.app_chat {
+    background-image: url(../img/mine.jpg);
+    aspect-ratio: 1;
+}
 
 
 
@@ -133,7 +154,7 @@ img {
 
 /* HEADER */
 
-    .icons {
+    .icons.md-none {
         display: none;
     }
 
@@ -191,7 +212,7 @@ img {
     }
 
     /* header */
-    .icons {
+    .icons.md-none {
         display: flex;
         gap: 16px;
         color: var(--text_gray);
@@ -279,10 +300,10 @@ img {
     background-color: blue;
 } */
 
-.debug .app_chat {
+/* .debug .app_chat {
     padding: 20px;
     background-color: red;
-}
+} */
 
 /* .debug .card {
     border: dotted 2px black;
