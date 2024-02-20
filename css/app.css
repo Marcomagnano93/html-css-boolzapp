@@ -132,6 +132,10 @@ img {
         padding: 8px;
     }
 
+    .card_section {
+        display: none;
+    }
+
     .card_notification {
         display: none;
     }
@@ -175,6 +179,10 @@ img {
         padding: 12px;
     }
 
+    .card_section {
+        display: block;
+    }
+
     .card_notification {
         width: 100%;
         display: flex;
@@ -184,14 +192,29 @@ img {
         background-color: var(--chat_azure);
     }
 
-    .card_notification h2 {
+    .card_section p,
+    .card_date,
+    .card_notification > .card_section h2 {
         font-size: 12px;
     }
 
-    .card_notification p {
-        font-size: 12px;
-        text-decoration: underline;
+    .card_section h2 {
+        font-size: 16px;
+    }
+
+    .card_section p,
+    .card_date {
         color: gray;
+    }
+
+    .card_date {
+        align-self: flex-start;
+    }
+
+
+    .card_notification p {
+        text-decoration: underline;
+    
     }
 
 
@@ -219,4 +242,5 @@ img {
 
 .debug .card {
     border: dotted 2px black;
+    background-color: white;
 }
