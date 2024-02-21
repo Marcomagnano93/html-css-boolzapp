@@ -160,7 +160,6 @@ body {
     border-radius: 12px;
     display: flex;
     position: relative;
-    min-height: 130px;
 }
 
 .sent {
