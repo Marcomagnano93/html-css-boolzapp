@@ -34,6 +34,9 @@ img {
 
 
 /* STYLE */
+body {
+    font-family: 'Lato', sans-serif;
+}
 
 .bg-gray {
     background-color: var(--chat_lightgray);
@@ -284,14 +287,21 @@ img {
 
 /* tablet CHAT FOOTER */
 
+.chat__footer {
+    padding: 8px 0;
+}
+
 .chat__footer i.block {
     display: block;
 }
 
 .footer_icon {
-    padding: 0 16px;
     color: var(--icon-darkgray);
     font-size: 22px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
