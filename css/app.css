@@ -99,17 +99,20 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 24px;
 }
 
-.search {
+.search,
+.search-bar i {
     display: none;
 }
+
 
 /* CHAT */
 
 .chat_header {
     width: 100%;
-    max-height: 80px;
+    max-height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -122,6 +125,8 @@ img {
     display: flex;
     gap: 16px;
     color: var(--text_gray);
+    font-size: 22px;
+    cursor: pointer;
 }
 
 .app_chat {
@@ -176,7 +181,12 @@ img {
         justify-content: center;
         align-items: center;
         padding: 8px;
-        max-height: 80px;
+        max-height: 70px;
+        
+        
+    }
+
+    .card:not(:first-of-type) {
         border-top: 1px solid var(--chat_lightgray);
     }
     
@@ -251,6 +261,7 @@ img {
         padding: 8px;
         justify-content: space-around;
         background-color: var(--chat_azure);
+        max-height: 70px;
     }
 
     .card_section p,
@@ -261,6 +272,7 @@ img {
 
     .card_section h2 {
         font-size: 16px;
+        font-weight: 200;
     }
 
     .card_section p,
@@ -279,16 +291,28 @@ img {
     }
 
     .search-bar {
-        padding: 4px;
+        margin: 4px;
         background-color: var(--bg-lightgray);
+        position: relative;
+    }
+
+    .search-bar i {
+        position: absolute;
+        display: block;
+        top: 30%;
+        left: 32px;
+        transform: translate(-50%);
+        pointer-events: none;
+        color: var(--text_gray)
     }
 
     .search {
         width: 100%;
-        padding: 6px 8px;
+        padding: 6px 10px 6px 50px;
         display: inline-block;
         border: 1px solid #ccc;
         box-sizing: border-box;
+        outline: none;
     }
 
 
