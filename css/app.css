@@ -143,7 +143,36 @@ img {
 .main__chat {
     flex-grow: 1;
     background-image: url(../img/mine.jpg);
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 12px;
 }
+
+.message {
+    width: fit-content;
+    max-width: 60%;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.sent {
+    background-color: var(--chat_green);
+    align-self: flex-end;
+   
+}
+
+.received {
+    background-color: white;
+    align-self: flex-start;
+
+}
+
+
+
+
+
+
 
 /* CHAT FOOTER */
 
