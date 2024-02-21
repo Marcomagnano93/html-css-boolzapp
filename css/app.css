@@ -153,7 +153,9 @@ img {
     width: fit-content;
     max-width: 60%;
     padding: 16px;
-    border-radius: 16px;
+    border-radius: 12px;
+    display: flex;
+    position: relative;
 }
 
 .sent {
@@ -166,6 +168,19 @@ img {
     background-color: white;
     align-self: flex-start;
 
+}
+
+.message i {
+    color: var(--icon-darkgray);
+    font-size: 16px;
+}
+
+.message time {
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+    font-size: 12px;
+    color: var(--text_gray);
 }
 
 
