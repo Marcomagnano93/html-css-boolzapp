@@ -150,6 +150,7 @@ body {
     flex-direction: column;
     padding: 24px;
     gap: 12px;
+    overflow: auto;
 }
 
 .message {
@@ -411,7 +412,7 @@ body {
         width: 100%;
         padding: 6px 10px 6px 50px;
         display: inline-block;
-        border: 1px solid #ccc;
+        border: 1px solid #cccccc90;
         box-sizing: border-box;
         outline: none;
     }
