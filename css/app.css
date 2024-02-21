@@ -151,11 +151,12 @@ img {
 
 .message {
     width: fit-content;
-    max-width: 60%;
+    max-width: 80%;
     padding: 16px;
     border-radius: 12px;
     display: flex;
     position: relative;
+    min-height: 130px;
 }
 
 .sent {
@@ -273,6 +274,13 @@ img {
         overflow: auto;
         flex-grow: 1;
     }
+
+    /* chat main */
+
+    .message {
+        max-width: 60%;
+    }
+
 
 /* tablet CHAT FOOTER */
 
